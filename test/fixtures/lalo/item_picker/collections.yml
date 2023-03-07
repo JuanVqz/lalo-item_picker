@@ -1,7 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  comment: MyText
+  comment: MyComment1
 
 two:
-  comment: MyText
+  comment: MyComment2
