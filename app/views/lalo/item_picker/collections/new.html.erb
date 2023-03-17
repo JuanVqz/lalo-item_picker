@@ -1,0 +1,17 @@
+<%= form_with model: @collection do |f| %>
+  <%= f.fields_for :line_items do |fli| %>
+    <p>
+      <%= fli.label :quantity %>
+      <%= fli.number_field :quantity %>
+    </p>
+  <% end %>
+
+  <p>
+    <%= f.label :comment %>
+    <%= f.text_area :comment %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

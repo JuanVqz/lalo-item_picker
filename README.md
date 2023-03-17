@@ -13,12 +13,12 @@ gem "lalo-item_picker"
 
 And then execute:
 ```bash
-$ bundle
+bundle
 ```
 
 Or install it yourself as:
 ```bash
-$ gem install lalo-item_picker
+gem install lalo-item_picker
 ```
 
 ## Contributing

@@ -1,0 +1,12 @@
+<h1>Collection List</h1>
+
+<%= link_to "Add collection", new_collection_path %>
+
+<ul>
+  <% @collections.each do |collection| %>
+    <% collection.line_items.each do |item| %>
+      <li>Item Name: <%= item.quantity %></li>
+    <% end %>
+    <hr>
+  <% end %>
+</ul>
