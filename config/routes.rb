@@ -1,3 +1,5 @@
 Lalo::ItemPicker::Engine.routes.draw do
- root to: "collections#index"
+  resources :collections
+
+  root to: "collections#index"
 end

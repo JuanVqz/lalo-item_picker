@@ -21,7 +21,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_03_230021) do
   end
 
   create_table "lalo_item_picker_line_items", force: :cascade do |t|
-    t.decimal "quantity"
+    t.decimal "quantity", default: "1.0"
     t.integer "collection_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

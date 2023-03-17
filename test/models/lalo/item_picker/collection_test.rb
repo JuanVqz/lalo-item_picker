@@ -3,7 +3,7 @@ require "test_helper"
 module Lalo::ItemPicker
   class CollectionTest < ActiveSupport::TestCase
     test "is not valid" do
-      assert_equal Collection.new.valid?, false
+      assert_not Collection.new.valid?
     end
 
     test "requires at least one line_item" do
